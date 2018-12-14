@@ -11,5 +11,3 @@ for ($i = 5; $i < 1000; $i += 5) {
 }
 
 print "$sum\n";
-
-print array_sum(range(3, 1000 - 1, 3)) + array_sum(range(5, 1000 - 1, 5)) . "\n";
